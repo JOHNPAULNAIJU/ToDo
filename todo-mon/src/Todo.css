@@ -1,18 +1,19 @@
 #pending-body, #completed-body{
     width: 100%;
     height: 100%;
-    display: flex;
+    display: table-cell;
     flex-direction: column;
     overflow-x: hidden;
     overflow-y: auto;
 }
 #newtask-bt{
     color: #fff;
-    background: #0058FF;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: 15px;
-    margin-bottom: 15px;
+    background: #0058ff;
+    position: absolute;
+    z-index: 10000;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
 }
 #dialog{
     width: 300px;
