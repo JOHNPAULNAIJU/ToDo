@@ -1,0 +1,98 @@
+#pending-body, #completed-body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#newtask-bt{
+    color: #fff;
+    background: #0058FF;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+#dialog{
+    width: 300px;
+    height: 200px;
+    background: #0E1834;
+    margin: auto;
+    border-radius: 10px;
+}
+#dia-title, #task-name{
+    font-family: 'Raleway', sans-serif !important;
+    color: #fff;
+}
+.MuiDialog-paperScrollPaper {
+    height: 100% !important;
+    width: 100% !important;
+    max-height: 100% !important;
+    max-width: 100% !important;
+}    
+.MuiDialog-paper{
+    margin: 0 !important;
+    color: #fff !important;
+    background: #0E1834 !important;
+    font-family: 'Raleway', sans-serif !important;
+}
+.MuiFormControl-root{
+    width: 100% !important;
+}
+.MuiDialog-paper{
+    background: #0E1834 !important;
+}
+.MuiInput-underline:after{
+    border-bottom: 2px solid #0058FF !important;
+}
+.MuiInput-underline:before{
+    border-bottom: 2px solid #323535 !important;
+}
+.MuiFormLabel-root{
+    color: #323535 !important;
+}
+.MuiFormLabel-root.Mui-focused{
+    color: #0058FF !important;
+}
+#dia-bt{
+    padding: 10px;
+    background: linear-gradient(-45deg, #1B2C48, #0058FF);
+    color: #fff;
+    font-family: 'Raleway', sans-serif !important;
+}
+.MuiCard-root {
+    overflow: hidden;
+    margin-top: 10px;
+    background: transparent !important;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff !important;
+}
+.MuiTypography-body1{
+    font-family: 'Raleway', sans-serif !important;
+    line-break: anywhere;
+}
+#del-icon{
+    float: right;
+    color: #fff;
+}
+.MuiCheckbox-colorSecondary.Mui-checked {
+    color: #00f540 !important;
+}
+.MuiCheckbox-root {
+    color: #fff !important;
+}
+.ch-box{
+    float: right;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+#time {
+    margin-top: 5px;
+    color: #b1b1b1;
+}
+.MuiLinearProgress-colorPrimary {
+    background-color: #0056f9 !important;
+}

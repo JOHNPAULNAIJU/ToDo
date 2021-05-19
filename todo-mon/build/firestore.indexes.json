@@ -1,0 +1,19 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "johnpaul100574@gmail.com",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
